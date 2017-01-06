@@ -16,7 +16,7 @@
 }
 
 @end
-static int testCount = 100000;
+static int testCount = 100000;//控制所遍历数组的大小
 @implementation ViewController
 
 - (void)viewDidLoad {
