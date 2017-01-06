@@ -34,14 +34,12 @@
             case 0:
             [self test ];
             break;
-            
             case 1:
             [self test1 ];
             break;
             case 2:
             [self test2 ];
             break;
-            
             case 3:
             [self test3 ];
             break;
@@ -53,7 +51,6 @@
             break;
     }
     uint64_t end = mach_absolute_time();
-    
     _timeLabel.text = [NSString stringWithFormat:@"用时%.9fs",pow(10,-9)*(end - begin)];
 }
 
