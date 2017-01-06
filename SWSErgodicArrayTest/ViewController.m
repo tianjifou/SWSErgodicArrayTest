@@ -31,6 +31,7 @@ static int testCount = 100000;//控制所遍历数组的大小
     
     UIActivityIndicatorView*indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     indicator.center = self.view.center;
+    [self.view addSubview:indicator];
     [indicator startAnimating];
     
     arrData = [[NSMutableArray alloc]init];
